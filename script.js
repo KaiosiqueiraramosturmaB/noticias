@@ -6,15 +6,15 @@ const nav = document.querySelector("header .mobile")
 
 console.log(body)
 
-botaoAbrir.addEventListener('click', )
-botaoFechar.addEventListener('click', )
+botaoAbrir.addEventListener('click', abrirMenu)
+botaoFechar.addEventListener('click', fecharMenu)
 
 function abrirMenu() {
-    body.classList.add("Escurecer")
+    body.classList.add("escurecer")
     nav.classList.add("abrir")
 }
 
 function fecharMenu() {
-    body.classList.remove("Escurecer")
+    body.classList.remove("escurecer")
     nav.classList.remove("abrir")
 }
